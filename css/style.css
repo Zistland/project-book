@@ -1,0 +1,860 @@
+:root {
+  --bookiBlue: #0065FC;
+  --bookiLightBlue: #DEEBFF;
+  --bookiGrey: #F2F2F2;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+.SearchInput .SearchBtn:hover,
+.SearchInput .SearchBtn:active {
+  background-color: cornflowerblue;
+}
+
+.city i {
+  color: lightgrey;
+  background-color: transparent;
+  padding-inline-start: 10px;
+}
+
+.bigstar i {
+  color: black;
+
+}
+
+.MostPop_Section.two i {
+  background-color: transparent;
+}
+
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  background-color: white;
+  color: black;
+  font-size: medium;
+  display: grid;
+
+}
+
+
+.NavListItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid transparent;
+  height: 100%;
+}
+
+.NavListItem:hover {
+  border-top: 3px solid var(--bookiBlue);
+}
+
+
+.container {
+  text-align: center;
+  margin-top: 360px;
+}
+
+.btn {
+  color: var(--bookiBlue);
+  padding: 10px 20px;
+  font-size: 20px;
+  transition: 0.8s;
+}
+
+.btn1,
+.btn2 {
+  color: black;
+}
+
+
+
+.btn1:hover,
+.btn2:hover {
+  color: var(--bookiBlue);
+}
+
+
+
+
+
+section h2 {
+  width: 100%;
+  color: black;
+
+}
+
+
+
+
+
+label {
+  font-weight: 900;
+  padding-inline-start: 0px;
+
+}
+
+p {
+  font-weight: 200;
+}
+
+.Acc_Section {
+  width: 100%;
+  margin: 0px;
+  gap: 40px;
+}
+
+.Acc_Section .Card {
+  background-color: white;
+  border-radius: 10px;
+  width: 265px;
+  height: 200px;
+  box-sizing: border-box;
+  font-size: smaller;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  overflow: hidden;
+  row-gap: 3px;
+  box-shadow: 0 0 20px #00000080;
+}
+
+.Acc_Section .Card .ImageWrapper {
+  height: 55%;
+  margin-bottom: 10px;
+}
+
+.Acc_Section h3 {
+  width: 100%;
+}
+
+.Acc_Section .Image {
+  width: 100%;
+  height: 110%;
+  object-fit: cover;
+  padding-block-start: 4px;
+  padding-inline-start: 3px;
+  padding-inline-end: 4px;
+  border-radius: 10px;
+}
+
+.MostPop_Section .Image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-block-start: 3px;
+  padding-inline-start: 4px;
+  padding-inline-end: 3px;
+  padding-block-end: 1px;
+  border-radius: 7px;
+
+}
+
+.Act_Section .Card--Large .Image {
+  width: 305px;
+  height: 355px;
+  object-fit: cover;
+
+}
+
+.RateWrapper {
+  display: flex;
+  width: 100%;
+}
+
+.Acc_Section .Card h3,
+.Acc_Section .Card p,
+.Acc_Section .Card .RateWrapper {
+  padding-left: 10px;
+  padding-top: 6px;
+}
+
+
+.MostPop_Section .Card {
+  background-color: white;
+  border-radius: 10px;
+  width: 360px;
+  height: 130px;
+  box-sizing: border-box;
+  font-size: smaller;
+  font: bolder;
+  display: flex;
+  text-align: start;
+  overflow: hidden;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 2px;
+  box-shadow: 0 0 20px #00000080;
+}
+
+.MostPop_Section .Card .ImageWrapper {
+  height: 100%;
+  width: 40%;
+  margin-right: 1%;
+}
+
+.MostPop_Section .Card h5,
+.MostPop_Section .Card p,
+.MostPop_Section .Card .RateWrapper {
+  width: 50%;
+}
+
+.fa-regular fa-star {
+  color: transparent;
+}
+
+.Act_Section .Card {
+  background-color: white;
+  border-radius: 20px;
+  /* Potentially need this for media queries */
+  /*
+  min-width: 250px;
+  max-width: 500px;
+  min-height: 100px;
+  max-height: 320px;
+  */
+  width: 23%;
+  height: 40%;
+  font: bolder;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  overflow: hidden;
+  box-shadow: 0 0 20px #00000080;
+
+}
+
+.city {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.city p {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+
+.MostPop_Section .Card h3 {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 140px;
+}
+
+.Act_Section .Card .ImageWrapper {
+  height: -webkit-fill-available;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.Act_Section .Card .ImageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Acc_Section .Card h3,
+.Acc_Section .Card p,
+.Acc_Section .Card .RateWrapper {
+  padding-left: 10px;
+}
+
+.Act_Section .Card--Large {
+  height: 100%;
+}
+
+.Act_Section .Card--Small {
+  height: 30%;
+}
+
+.Act_Section .Card--Medium {
+  height: 45%;
+}
+
+
+ul {
+  color: black;
+}
+
+.Card {
+  border: 1px solid #F2F2F2;
+
+}
+
+.Card h5 {
+  min-height: 30px;
+  max-height: 30px;
+  padding-left: 10px;
+}
+
+.SearchInput {
+  min-height: 42px;
+  width: 20em;
+  border: 1px solid #F2F2F2;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  box-sizing: border-box;
+
+}
+
+.SearchInput .fa-location-dot {
+  min-width: 42px;
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F2F2;
+  border: 35px;
+  border-radius: 1px;
+  color: black;
+  box-sizing: border-box;
+}
+
+.SearchInput .SearchTxt {
+  color: black;
+  font-weight: bolder;
+
+}
+
+.SearchInput .SearchBtn {
+  width: 30%;
+  background-color: var(--bookiBlue);
+  color: white;
+  font-weight: bolder;
+}
+
+.SearchBtn i {
+  background-color: transparent;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.FooterWrapper,
+.Act_Section,
+.MostPop_Section,
+.Acc_Section,
+.wrapper,
+.FiltersSection,
+.FiltersWrapper,
+.FiltersWrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding-inline-start: 20px;
+
+
+}
+
+
+
+.FooterWrapper {
+  gap: 40px;
+  margin-top: 160px;
+}
+
+.Act_Section,
+.MostPop_Section,
+.Acc_Section {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.MostPop_Section {
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 20px;
+  width: 30%;
+  font-size: 13px;
+
+
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.FiltersWrapper {
+  align-items: center;
+}
+
+.noListStyle {
+  list-style: none;
+  list-style-type: none;
+}
+
+
+
+
+.FiltersWrapper ul li {
+  border: 1px solid lightgray;
+  border-radius: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+  gap: 10px;
+  padding-right: 20px;
+  min-height: 40px;
+
+}
+
+
+.FiltersWrapper ul li i {
+  width: 38px;
+  height: 38px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FiltersSection {
+  width: 100%;
+  flex-direction: column;
+
+}
+
+
+
+.Acc_Section {
+  width: 66%;
+}
+
+.MostPop_Section {
+  width: 30%;
+}
+
+.Act_Section {
+  width: 90%;
+
+}
+
+.title {}
+
+.noListStyle {
+  gap: 20px;
+  padding-inline-end: 70px;
+}
+
+
+
+
+.fa-regular {
+  padding: 0px;
+  color: lightgrey;
+
+}
+
+.RateWrapper .fa-solid {
+  padding: 0.3px;
+
+}
+
+.main-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.heading {
+  font-weight: 900;
+  padding: 0px;
+  margin: 0px;
+}
+
+.heading-section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.two {
+  margin: 0px;
+  text-align: left;
+  background-color: #F2F2F2;
+  color: black;
+  /* padding: 20px; */
+  border-radius: 20px;
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  gap: 40px;
+  justify-content: space-between;
+
+
+
+}
+
+
+
+.Acc_Section i {
+  background-color: transparent;
+  color: var(--bookiBlue);
+}
+
+
+i {
+  background: #DEEBFF;
+  border: 5px solid none;
+  border-radius: 12px;
+  padding: 0.40em 0.40em;
+  color: var(--bookiBlue);
+}
+
+
+.FlexGrid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 440px;
+}
+
+.wrapper {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wrapper ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+
+.FiltersWrapper ul li:hover,
+.FiltersWrapper ul li:active {
+  border-color: #0065FC;
+}
+
+.AboutWrapper {
+  background-color: #F2F2F2;
+
+}
+
+
+footer.FooterWrapper {
+  background-color: #F2F2F2;
+  color: black;
+  width: 100%;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding-block-start: 20px;
+}
+
+
+
+
+
+.img-booki {
+  width: 55%;
+  height: 80%;
+
+}
+
+ul {
+  overflow: hidden;
+}
+
+
+
+
+.SearchBtn .fa-search {
+  display: none;
+}
+
+
+
+@media only screen and (max-width:768px) {
+  body {
+    padding: 0px;
+  }
+
+  .TextWrap {
+    display: none;
+  }
+
+  .SearchBtn .fa-search {
+    display: inline;
+    color: white;
+    width: 15%;
+  }
+
+  .SearchInput .SearchBtn {
+    width: 15%;
+    border-radius: 10px;
+  }
+
+  .SearchInput .fa-location-dot {
+    width: 15%;
+    border-radius: 5px;
+  }
+
+  .wrapper {
+    padding-inline-start: 0%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrapper h1 {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .img-booki {
+
+    object-fit: scale-down;
+    width: 40%;
+    height: 40%;
+    margin: 100px;
+  }
+
+  .FiltersWrapper ul li {
+    border: 1px solid lightgray;
+    border-radius: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    gap: 10px;
+    padding-right: 20px;
+    min-height: 40px;
+  }
+
+
+
+  .search-container {
+    margin: 0;
+    padding: 0;
+    gap: 0;
+  }
+
+  .wrapper nav {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .NavListItem {
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0px solid transparent;
+    border-bottom: 3px solid transparent;
+
+  }
+
+  .NavListItem:hover {
+    border-color: var(--bookiBlue);
+    border-top: 0px solid transparent;
+  }
+
+  .Acc_Section .Card {
+    width: 100%;
+    height: 30%;
+  }
+
+  .wrapper nav ul {
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 80px;
+  }
+
+  .AboutWrapper {
+    width: 100%;
+  }
+
+  .two {
+    width: 100%;
+  }
+
+  .Act_Section .Card {
+    width: 100%;
+    margin: 0;
+    row-gap: 3px;
+    height: 20%;
+    min-height: 160px;
+  }
+
+  .MostPop_Section {
+    order: 1;
+  }
+
+  .Acc_Section {
+    order: 2;
+    padding: 0 30px;
+  }
+
+  .Acc_Section .Card {
+    min-height: 200px;
+  }
+
+  .Act_Section {
+    order: 3;
+  }
+
+  .FlexGrid {
+    flex-wrap: nowrap;
+    min-height: 1100px;
+  }
+
+  .main-wrapper {
+    width: 100%;
+    max-width: 375px;
+  }
+
+  .main-wrapper {
+    padding: 0px;
+  }
+
+  .Act_Section {
+    margin: 0;
+    gap: 50px;
+  }
+
+  .Card--Large,
+  .Card--Small,
+  .Card--Medium {
+    width: 100%;
+    min-height: 120px;
+    max-height: 120px;
+  }
+
+  .Acc_Section {
+    width: 100%;
+    margin: 0px;
+    row-gap: 40px;
+  }
+
+
+
+
+
+  .MostPop_Section {
+
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+
+  .FiltersWrapper ul li:nth-child(1) {
+    order: 1;
+  }
+
+  .FiltersWrapper ul li:nth-child(2) {
+    order: 3;
+  }
+
+  .FiltersWrapper ul li:nth-child(3) {
+    order: 2;
+  }
+
+  .noListStyle {
+    padding-inline-end: 0;
+  }
+
+  .FiltersWrapper ul li:nth-child(4) {
+    order: 4;
+  }
+
+
+}
+
+
+
+
+
+
+
+/* Tablet version */
+@media only screen and (min-width: 820px) {
+
+
+  .two {
+    text-align: left;
+    background-color: #F2F2F2;
+    color: black;
+    /* padding: 20px; */
+    border-radius: 20px;
+    /* margin: 20px; */
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 10px;
+
+  }
+
+  .Acc_Section {
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 20px;
+
+  }
+
+  .MostPop_Section {
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 25px;
+
+  }
+
+  .MostPop_Section .Card {
+    width: 90%;
+    max-width: 300px;
+  }
+
+
+  .FiltersWrapper {
+    align-items: center;
+  }
+
+
+  .Act_Section {
+    width: 100%;
+
+  }
+}
+
+/* Desktp version */
+@media only screen and (min-width:962px) {
+  .Acc_Section {
+    width: 66%;
+  }
+
+  .MostPop_Section {
+    width: 30%;
+  }
+
+  .Act_Section {
+    width: 90%;
+
+  }
+}
